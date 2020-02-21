@@ -1,15 +1,13 @@
 {
-    "background_color": "pink",
-    "description": "Gratis Boligsalg.",
-    "display": "standalone",
-    "icons": [
-      {
-        "src": "assets/bossom.png",
-        "sizes": "64x64",
-        "type": "image/png"
-      }
-    ],
-    "name": "Gratis Boligsalg",
-    "short_name": "GBS",
-    "start_url": "/index.html"
-  }
+  "background_color": "pink",
+  "description": "Gratis Boligsalg.",
+  "display": "standalone",
+  "icons": [{
+    "src": "/assets/bossom.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }],
+  "name": "Gratis Boligsalg",
+  "short_name": "GBS",
+  "start_url": "/index.html"
+}
