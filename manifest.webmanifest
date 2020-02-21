@@ -3,7 +3,7 @@
   "description": "Gratis Boligsalg.",
   "display": "standalone",
   "icons": [{
-    "src": "/assets/bossom.png",
+    "src": "./assets/bossom.png",
     "sizes": "64x64",
     "type": "image/png"
   }],
