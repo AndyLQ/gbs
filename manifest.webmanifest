@@ -1,5 +1,6 @@
 {
   "background_color": "pink",
+  "theme_color": "#AA9853",
   "description": "Gratis Boligsalg.",
   "display": "standalone",
   "icons": [{
