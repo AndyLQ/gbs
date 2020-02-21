@@ -4,8 +4,8 @@
   "description": "Gratis Boligsalg.",
   "display": "standalone",
   "icons": [{
-    "src": "./assets/bossom.png",
-    "sizes": "64x64",
+    "src": "/assets/sexy.png",
+    "sizes": "256x256",
     "type": "image/png"
   }],
   "name": "Gratis Boligsalg",
