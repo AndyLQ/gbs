@@ -4,10 +4,16 @@
   "description": "Gratis Boligsalg.",
   "display": "standalone",
   "icons": [{
-    "src": "/assets/sexy.png",
-    "sizes": "256x256",
-    "type": "image/png"
-  }],
+      "src": "/assets/sexy.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/sexy2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "name": "Gratis Boligsalg",
   "short_name": "GBS",
   "start_url": "/index.html"
