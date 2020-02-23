@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#AA9853">
     <script src="/js/index.js"></script>
+    <script src="/js/search.js"></script>
     <link rel="manifest" href="manifest.webmanifest">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
@@ -19,6 +20,13 @@
     <h1>
         GRATISBOLIGSALG.DK
     </h1>
+    <section id="search">
+        <div>
+            <input id="search__input" type="text" placeholder="Input your wildest wishes">
+            <input id="search__submit" type="button" value="Submit">
+        </div>
+        <span id="search__query"></span>
+    </section>
     <div class="post">
         <div class="post__imgbox">
             <div class="post__textbox">
@@ -29,7 +37,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 <script>

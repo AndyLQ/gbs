@@ -51,6 +51,11 @@ body {
 .post__textbox__size img {
   margin-bottom: -3px; }
 
+#search div:first-of-type {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
 @media screen and (max-height: 450px) {
   .nav {
     padding-top: 15px; }
