@@ -1,0 +1,16 @@
+{
+  "name": "gbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/js/index.js",
+  "scripts": {
+    "scss": "node-sass --watch css -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyLQ/gbs.git"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
