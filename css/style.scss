@@ -15,7 +15,7 @@ body {
   border:lightgrey 1px solid;
   border-radius: 5px;
   margin: auto;
-  //shadow
+  //add drop shadow
 }
 
 .post__imgbox {
@@ -37,4 +37,48 @@ padding-top: 5px;
 .post__textbox__area {
   color: dimgray;
   margin-top:0;
+}
+
+
+nav {
+
+  span{
+    font-size: 30px;
+  }
+}
+
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  right: 0;
+  background-color: #AA9853;
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.5s;
+  
+  a {
+  padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: seashell;
+    display: block;
+    transition: 0.3s;
+  }  
+
+}
+
+.nav .nav__closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .nav {padding-top: 15px;}
+  .nav a {font-size: 18px;}
 }

@@ -19,15 +19,16 @@
         Welcome to where you can sell your property, free
     </h1>
     <nav>
-        <span>
-            link one
-        </span>
-        <span>
-            link two
-        </span>
-        <span>
-            link three
-        </span>
+        <div id="mySidenav" class="nav">
+            <a href="javascript:void(0)" class="nav__closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Search</a>
+            <a href="#">Sell</a>
+            <a href="#">win</a>
+            <a href="#">Lose</a>
+          </div>
+          
+         
+          <span onclick="openNav()">&equiv;</span>
     </nav>
 
     <div class="post">
@@ -43,5 +44,15 @@
     </div>
 
 </body>
+
+<script>
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "40vw";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }</script>
 
 </html>
