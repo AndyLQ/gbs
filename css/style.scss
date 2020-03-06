@@ -1,12 +1,37 @@
-$primary-color: "#222";
+//GLOBAL
+
+//Colors
+$gold: "#AA9853";
+$navy: "#242759";
+$black: "#0F1236"; //headings
+$dark-grey: "#393D40"; //body text
+$grey: "#ABAFB2";
+$light-grey: "#E5E5E5"; //dividers
+
+//Fonts
+@font-face {
+  font-family: Aris;
+  src: url(/assets/fonts/aristotelica.text-trial-light.ttf);
+}
+
+@font-face {
+  font-family: Aris Bold;
+  src: url(/assets/fonts/aristotelica.text-trial-demibold.ttf);
+}
+
+$body-font: Aris, sans-serif;
+$heading-font: Aris Bold, sans-serif;
+
+//Spacing
+$base-spacing: 12px; //minimum margin and padding
+$border-radius: 4px;
+$border-radius25: 25px;
+
+//Mixins
 
 body {
-  font-family: "Quicksand", sans-serif;
-  color: $primary-color;
-
-  a {
-    color: $primary-color;
-  }
+  font-family: $body-font;
+  color: $dark-grey;
 }
 
 .post {
@@ -66,10 +91,8 @@ padding: 10px;
 }
 
 
-
 nav {
-
-  span{
+  span {
     font-size: 30px;
   }
 }
@@ -79,22 +102,21 @@ nav {
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 0; 
+  top: 0;
   right: 0;
-  background-color: #AA9853;
+  background-color: #aa9853;
   overflow-x: hidden;
   padding-top: 50px;
   transition: 0.5s;
-  
+
   a {
-  padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: seashell;
     display: block;
     transition: 0.3s;
-  }  
-
+  }
 }
 
 .nav .nav__closebtn {
@@ -106,6 +128,10 @@ nav {
 }
 
 @media screen and (max-height: 450px) {
-  .nav {padding-top: 15px;}
-  .nav a {font-size: 18px;}
+  .nav {
+    padding-top: 15px;
+  }
+  .nav a {
+    font-size: 18px;
+  }
 }
