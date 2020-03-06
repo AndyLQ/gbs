@@ -6,29 +6,52 @@ body a {
   color: "#222"; }
 
 .post {
-  height: 350px;
-  width: 80vw;
-  border: lightgrey 1px solid;
+  height: 200px;
+  width: 85vw;
   border-radius: 5px;
   margin: auto; }
 
 .post__imgbox {
   width: 100%;
-  height: 50%;
-  background-color: black;
-  background-image: url("https://lh3.googleusercontent.com/proxy/8lYknpTG5jk6CQPg0w2CA8_o8L_dWZTkb6DHJEWOIKSGu98O2SDAxwOCv_WB_Ua1hcrMG1gUOzr7IVnUwd4D3sKczX9a8X-kVSsOW24Hq87emXKH1Q_MK0KwLUoV");
+  height: 100%;
+  background-image: url("https://i0.wp.com/www.bernt-nielsen.dk/wp-content/uploads/4-3.jpg?resize=1500%2C607&ssl=1");
   background-position: 100% 50%;
-  background-size: cover;
-  border: 0px;
-  border-radius: 5px 5px 0 0; }
+  background-size: Cover;
+  border-radius: 4px; }
 
 .post__textbox {
-  padding: 15px;
-  padding-top: 5px; }
+  padding: 10px; }
 
-.post__textbox__area {
-  color: dimgray;
-  margin-top: 0; }
+.post__textbox__price {
+  background-color: #AA9853;
+  display: inline-block;
+  color: white;
+  padding: 2px 4px 2px 4px;
+  font-size: 14px;
+  border-radius: 4px; }
+
+.post__textbox__street {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 110px;
+  font-weight: 600; }
+
+.post__textbox__city {
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 5px; }
+
+.post__textbox__size {
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px; }
+
+.post__textbox__size img {
+  margin-bottom: -3px; }
 
 nav span {
   font-size: 30px; }
