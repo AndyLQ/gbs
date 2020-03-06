@@ -9,18 +9,14 @@ $grey: "#ABAFB2";
 $light-grey: "#E5E5E5"; //dividers
 
 //Fonts
-@font-face {
-  font-family: Aris;
-  src: url(/assets/fonts/aristotelica.text-trial-light.ttf);
+@mixin body-font {
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
 }
-
-@font-face {
-  font-family: Aris Bold;
-  src: url(/assets/fonts/aristotelica.text-trial-demibold.ttf);
+@mixin heading-font {
+  font-family: Quicksand, sans-serif;
+  font-weight: 600;
 }
-
-$body-font: Aris, sans-serif;
-$heading-font: Aris Bold, sans-serif;
 
 //Spacing
 $base-spacing: 12px; //minimum margin and padding
@@ -51,11 +47,11 @@ body {
 }
 
 .post__textbox {
-padding: 10px;
+  padding: 10px;
 }
 
 .post__textbox__price {
-  background-color: #AA9853;
+  background-color: #aa9853;
   display: inline-block;
   color: white;
   padding: 2px 4px 2px 4px;
@@ -67,7 +63,7 @@ padding: 10px;
   color: white;
   font-size: 18px;
   margin-bottom: 0px;
-  margin-top:110px;
+  margin-top: 110px;
   font-weight: 600;
 }
 
@@ -75,21 +71,20 @@ padding: 10px;
   color: white;
   font-size: 14px;
   display: inline-block;
-  margin-top:5px;
+  margin-top: 5px;
 }
 
 .post__textbox__size {
   color: white;
   font-size: 14px;
   display: inline-block;
-  margin-top:5px;
+  margin-top: 5px;
   margin-left: 10px;
 
   img {
     margin-bottom: -3px;
   }
 }
-
 
 nav {
   span {
