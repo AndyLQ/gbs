@@ -1,7 +1,7 @@
 body {
   font-family: Quicksand, sans-serif;
   font-weight: 400;
-  color: "#393D40"; }
+  color: #393d40; }
 
 .post {
   height: 200px;
@@ -21,7 +21,7 @@ body {
   padding: 10px; }
 
 .post__textbox__price {
-  background-color: "#AA9853";
+  background-color: #aa9853;
   display: inline-block;
   color: white;
   padding: 2px 4px 2px 4px;
