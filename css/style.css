@@ -1,9 +1,14 @@
-body {
-  font-family: "Quicksand", sans-serif;
-  color: "#222"; }
+@font-face {
+  font-family: Aris;
+  src: url(/assets/fonts/aristotelica.text-trial-light.ttf); }
 
-body a {
-  color: "#222"; }
+@font-face {
+  font-family: Aris Bold;
+  src: url(/assets/fonts/aristotelica.text-trial-demibold.ttf); }
+
+body {
+  font-family: Aris, sans-serif;
+  color: "#393D40"; }
 
 .post {
   height: 350px;
@@ -40,7 +45,7 @@ nav span {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #AA9853;
+  background-color: #aa9853;
   overflow-x: hidden;
   padding-top: 50px;
   transition: 0.5s; }
