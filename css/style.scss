@@ -26,7 +26,7 @@ $border-radius25: 25px;
 //Mixins
 
 body {
-  font-family: $body-font;
+  @include body-font;
   color: $dark-grey;
 }
 
