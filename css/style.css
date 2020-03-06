@@ -1,13 +1,6 @@
-@font-face {
-  font-family: Aris;
-  src: url(/assets/fonts/aristotelica.text-trial-light.ttf); }
-
-@font-face {
-  font-family: Aris Bold;
-  src: url(/assets/fonts/aristotelica.text-trial-demibold.ttf); }
-
 body {
-  font-family: Aris, sans-serif;
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
   color: "#393D40"; }
 
 .post {
@@ -28,7 +21,7 @@ body {
   padding: 10px; }
 
 .post__textbox__price {
-  background-color: #AA9853;
+  background-color: "#AA9853";
   display: inline-block;
   color: white;
   padding: 2px 4px 2px 4px;
@@ -57,36 +50,6 @@ body {
 
 .post__textbox__size img {
   margin-bottom: -3px; }
-
-nav span {
-  font-size: 30px; }
-
-.nav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #aa9853;
-  overflow-x: hidden;
-  padding-top: 50px;
-  transition: 0.5s; }
-
-.nav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: seashell;
-  display: block;
-  transition: 0.3s; }
-
-.nav .nav__closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px; }
 
 @media screen and (max-height: 450px) {
   .nav {
