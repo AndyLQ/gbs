@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#AA9853">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#AA9853" />
     <script src="/js/index.js"></script>
     <script src="/js/search.js"></script>
-    <link rel="manifest" href="manifest.webmanifest">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="apple-touch-icon" href="/assets/sexy.png">
-    <script src="https://kit.fontawesome.com/14e99b7b1b.js" crossorigin="anonymous"></script>
+    <script src="/js/data.js"></script>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="apple-touch-icon" href="/assets/sexy.png" />
+    <script
+      src="https://kit.fontawesome.com/14e99b7b1b.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Gratis Boligsalg</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>
-        GRATISBOLIGSALG.DK
+      GRATISBOLIGSALG.DK
     </h1>
     <section id="search">
-        <div>
-            <input id="search__input" type="text" placeholder="Input your wildest wishes">
-            <input id="search__submit" type="button" value="Submit">
-        </div>
-        <span id="search__query"></span>
+      <div>
+        <input
+          id="search__input"
+          type="text"
+          placeholder="Input your wildest wishes"
+        />
+        <input id="search__submit" type="button" value="Submit" />
+      </div>
+      <span id="search__query"></span>
     </section>
-    <div class="post">
-        <div class="post__imgbox">
-            <div class="post__textbox">
-                <div class="post__textbox__price">4.900.000 kr</div>
-                <p class="post__textbox__street">Vestergade 34</p>
-                <p class="post__textbox__city"><i class="fas fa-map-marker-alt"></i> Aarhus C</p>
-                <p class="post__textbox__size"><img src="assets/size__icon.svg" alt=""> 290 m²</p>
-            </div>
-        </div>
-    </div>
+    <div class="posts__list"></div>
 
     <nav>
-        <div><i class="fas fa-search"></i></div>
-        <div><i class="far fa-heart"></i></div>
-        <div><i class="far fa-user"></i></div>
+      <div><i class="fas fa-search"></i></div>
+      <div><i class="far fa-heart"></i></div>
+      <div><i class="far fa-user"></i></div>
     </nav>
-
-</body>
-
+  </body>
 </html>
