@@ -1,7 +1,9 @@
 body {
   font-family: Quicksand, sans-serif;
   font-weight: 400;
-  color: #393d40; }
+  color: #393d40;
+  margin: 0;
+  box-sizing: border-box; }
 
 .post {
   height: 200px;
@@ -57,7 +59,36 @@ body {
 #search div:first-of-type {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center; }
+  justify-content: center;
+  margin: 1rem 0; }
+
+#search div:first-of-type #search__input {
+  border: none;
+  border-bottom: 1px solid black; }
+
+#search div:first-of-type #search__input::before {
+  width: 100px;
+  display: block;
+  height: 100px;
+  color: red;
+  content: "sexy"; }
+
+nav {
+  display: flex;
+  height: 60px;
+  flex-direction: row;
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  border-top: lightgrey thin solid; }
+
+nav div {
+  flex: 1;
+  text-align: center;
+  width: 33%;
+  align-content: center;
+  padding-top: 18px;
+  font-size: 20px; }
 
 @media screen and (max-height: 450px) {
   .nav {

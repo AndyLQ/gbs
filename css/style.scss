@@ -27,6 +27,8 @@ $border-radius25: 25px;
 body {
   @include body-font;
   color: $dark-grey;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .post {
@@ -99,7 +101,7 @@ body {
 
     #search__input {
       border: none;
-      border-bottom: 1px solid $primary-color;
+      border-bottom: 1px solid black;
 
       &::before {
         width: 100px;
@@ -109,6 +111,25 @@ body {
         content: "sexy";
       }
     }
+  }
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  flex-direction: row;
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  border-top: lightgrey thin solid;
+
+  div {
+    flex:1;
+    text-align: center;
+    width: 33%;
+    align-content: center;
+    padding-top: 18px;
+    font-size: 20px;
   }
 }
 
