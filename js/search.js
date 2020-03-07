@@ -6,7 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let allHouses = [];
     document.querySelectorAll(".post").forEach(house => allHouses.push(house));
     const searchResults = allHouses.filter(house => {
-      return house.querySelector(".post__textbox__address").innerText.toLowerCase().includes(searchInput.value.toLowerCase());
+      if (house.querySelector(".post__textbox__address").innerText.toLowerCase().includes(searchInput.value.toLowerCase())) {
+        house.classList.remove("hidden");
+        return house;
+      } else {
+        house.classList.add("hidden");
+        return;
+      }
     });
     document.querySelector("#search__query").innerText = "You searched for '" + query + "', which returned exactly " + searchResults.length + " results!";
   }
