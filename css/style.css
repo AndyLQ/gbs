@@ -9,6 +9,9 @@ body {
   border-radius: 5px;
   margin: auto; }
 
+.post.hidden {
+  display: none; }
+
 .post__imgbox {
   width: 100%;
   height: 100%;
@@ -50,6 +53,11 @@ body {
 
 .post__textbox__size img {
   margin-bottom: -3px; }
+
+#search div:first-of-type {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
 
 @media screen and (max-height: 450px) {
   .nav {
