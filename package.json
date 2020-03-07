@@ -1,7 +1,7 @@
 {
   "name": "gbs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Where you can sell your bolig, gratis",
   "main": "/js/index.js",
   "scripts": {
     "scss": "node-sass --watch css -o css"
@@ -11,6 +11,20 @@
     "url": "git+https://github.com/AndyLQ/gbs.git"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "husky": "4.2.3",
+    "lint-staged": "9.5.0",
+    "node-sass": "4.13.1",
+    "prettier": "1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,scss,html}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
