@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#AA9853" />
     <script src="/js/index.js"></script>
-    <script src="/js/search.js"></script>
-    <script src="/js/data.js"></script>
-    <script src="liked.html"></script>
+    <script src="/js/like.js"></script>
     <link rel="manifest" href="manifest.webmanifest" />
     <link
       href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap"
@@ -31,24 +29,11 @@
       </div>
     </header>
     <main class="wrapper">
-      <section id="search">
-        <div>
-          <input
-            id="search__input"
-            type="text"
-            placeholder="Input your wildest wishes"
-          />
-          <input id="search__submit" type="button" value="Submit" />
-        </div>
-        <span id="search__query"></span>
-      </section>
-      <div class="posts__list"></div>
-
       <nav>
-        <div><i class="fas fa-search fa-active"></i></div>
         <div>
-          <a href="liked.html"><i class="far fa-heart"></i></a>
+          <a href="/"><i class="fas fa-search"></i></a>
         </div>
+        <div><i class="far fa-heart fa-active"></i></div>
         <div><i class="far fa-user"></i></div>
       </nav>
     </main>
