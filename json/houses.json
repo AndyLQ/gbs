@@ -6,7 +6,7 @@
             "city": "Aarhus",
             "size": "90m2",
             "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
-            "saved": "false"
+            "saved": false
         },
 
         {
@@ -16,7 +16,7 @@
             "city": "Hasselager",
             "size": "90m2",
             "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
-            "saved": "false"
+            "saved": false
         },
 
         {
@@ -26,7 +26,7 @@
             "city": "Risskov",
             "size": "90m2",
             "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
-            "saved": "false"
+            "saved": false
         }
     ]
 }

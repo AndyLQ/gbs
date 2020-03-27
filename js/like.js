@@ -1,16 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
   let like = document.querySelector(".like-button");
-
-  fetch("json/liked.json")
-    .then(response => {
-      return response.json();
+  like.addEventListener("click", () => {
+    let likeButton = document.querySelector("[data-id]");
+    let houseId = likeButton.dataset.id;
+    fetch("json/houses.json", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({})
     })
-    .then(data => {
-      console.log(data);
-      like.addEventListener("click", () => {
-        let houseId = document.querySelector("[data-house]");
+      .then(response => {
+        return response.json();
+      })
+      .then(data => {
+        console.log(data);
       });
-
-      let likedHousesList = document.querySelector(".liked__list");
-    });
+  });
 });

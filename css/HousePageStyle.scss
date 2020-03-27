@@ -27,6 +27,7 @@ $border-radius25: 25px;
 body {
   margin: 0px;
   box-sizing: border-box;
+  @include body-font;
 }
 
 .pageheader {

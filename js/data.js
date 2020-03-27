@@ -14,8 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
         const street = document.createElement("p");
         const city = document.createElement("p");
         const size = document.createElement("p");
+        const id = house.id;
         cardList.appendChild(cardContainer);
         cardContainer.setAttribute("class", "post");
+        cardContainer.setAttribute("data-id", id);
         cardContainer.append(cardIMG);
         cardIMG.setAttribute("class", "post__imgbox");
         cardIMG.append(cardText);
