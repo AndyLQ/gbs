@@ -1,7 +1,6 @@
 body {
   margin: 0px;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .pageheader {
   width: auto;
@@ -11,19 +10,16 @@ body {
   position: relative;
   padding-left: 24px;
   padding-right: 24px;
-  box-shadow: inset 0px -144px 300px -50px rgba(0, 0, 0, 0.53);
-}
+  box-shadow: inset 0px -144px 300px -50px rgba(0, 0, 0, 0.53); }
 
 .pageheader .pageheader__top {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .pageheader .pageheader__top i {
   font-size: 30px;
   color: whitesmoke;
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .pageheader .pageheader__top .pageheader__top__pricetag {
   background-color: #aa9853;
@@ -33,48 +29,40 @@ body {
   border-radius: 4px;
   font-weight: 600;
   height: 18px;
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .pageheader .pageheader__bot {
   position: absolute;
   width: 86vw;
   bottom: 0px;
-  color: white;
-}
+  color: white; }
 
 .pageheader .pageheader__bot .pageheader__bot__1 {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .pageheader .pageheader__bot .pageheader__bot__1 p {
   font-size: 30px;
-  margin: 0;
-}
+  margin: 0; }
 
 .pageheader .pageheader__bot .pageheader__bot__1 i {
   font-size: 28px;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 .pageheader .pageheader__bot .pageheader__bot__2 {
   display: flex;
   margin-bottom: 15px;
-  margin-top: 8px;
-}
+  margin-top: 8px; }
 
 .pageheader .pageheader__bot .pageheader__bot__2 p {
   font-size: 14px;
   margin: 0;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 .pageheader .pageheader__bot .pageheader__bot__2 i {
   font-size: 12px;
   margin-top: 5px;
-  margin-right: 5px;
-}
+  margin-right: 5px; }
 
 .contactButton {
   font-family: Quicksand, sans-serif;
@@ -88,45 +76,36 @@ body {
   background-color: #242759;
   color: white;
   font-size: 16px;
-  left: 7vw;
-}
+  left: 7vw; }
 
 .desc {
-  margin: 20px 24px 20px 24px;
-}
+  margin: 20px 24px 20px 24px; }
 
 .desc .desc__heading {
   font-family: Quicksand, sans-serif;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 .desc .desc__text {
   font-family: Quicksand, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .desc .desc__subheading {
   font-family: Quicksand, sans-serif;
   font-weight: 600;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .desc .desc__subcontainer {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .desc .desc__subtext {
   font-family: Quicksand, sans-serif;
   font-weight: 400;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .desc .desc__text {
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .pagepusher {
-  height: 300px;
-}
+  height: 300px; }
