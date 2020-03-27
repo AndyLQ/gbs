@@ -165,9 +165,17 @@ nav {
   position: fixed;
   bottom: 0px;
   border-top: lightgrey thin solid;
+  background-color: white;
+  color: $grey;
+  .fa-active {
+    color: $black;
+  }
+  a {
+    color: $grey;
+  }
 
   div {
-    flex:1;
+    flex: 1;
     text-align: center;
     width: 33%;
     align-content: center;

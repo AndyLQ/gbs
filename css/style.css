@@ -120,7 +120,15 @@ nav {
   width: 100vw;
   position: fixed;
   bottom: 0px;
-  border-top: lightgrey thin solid; }
+  border-top: lightgrey thin solid;
+  background-color: white;
+  color: #abafb2; }
+
+nav .fa-active {
+  color: #0f1236; }
+
+nav a {
+  color: #abafb2; }
 
 nav div {
   flex: 1;
