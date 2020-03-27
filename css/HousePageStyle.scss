@@ -1,0 +1,156 @@
+//GLOBAL
+
+//Colors
+$gold: #aa9853;
+$navy: #242759;
+$black: #0f1236; //headings
+$dark-grey: #393d40; //body text
+$grey: #abafb2;
+$light-grey: #e5e5e5; //dividers
+
+//Fonts
+@mixin body-font {
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
+}
+@mixin heading-font {
+  font-family: Quicksand, sans-serif;
+  font-weight: 600;
+}
+//Spacing
+$base-spacing: 12px; //minimum margin and padding
+$border-radius: 4px;
+$border-radius25: 25px;
+
+//Mixins
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.pageheader {
+  width: auto;
+  height: 50vh;
+  background-image: url("https://media.architecturaldigest.in/wp-content/uploads/2020/01/Mumbai-home-interior-design_1_3-1.jpg");
+  background-size: cover;
+  position: relative;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-shadow: inset 0px -144px 300px -50px rgba(0, 0, 0, 0.53);
+
+  .pageheader__top {
+    display: flex;
+    justify-content: space-between;
+
+    //back arrow
+    i {
+      font-size: 30px;
+      color: whitesmoke;
+      margin-top: 15px;
+    }
+
+    .pageheader__top__pricetag {
+      background-color: $gold;
+      color: white;
+      padding: 4px 6px;
+      font-size: 14px;
+      border-radius: 4px;
+      font-weight: 600;
+      height: 18px;
+      margin-top: 20px;
+    }
+  }
+
+  .pageheader__bot {
+    position: absolute;
+    width: 86vw;
+    bottom: 0px;
+    color: white;
+
+    .pageheader__bot__1 {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-size: 30px;
+        margin: 0;
+      }
+
+      //Heart icon
+      i {
+        font-size: 28px;
+        margin-top: 5px;
+      }
+    }
+
+    .pageheader__bot__2 {
+      display: flex;
+      margin-bottom: 15px;
+      margin-top: 8px;
+
+      p {
+        font-size: 14px;
+        margin: 0;
+        margin-right: 15px;
+      }
+
+      //icons
+      i {
+        font-size: 12px;
+        margin-top: 5px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.contactButton {
+  @include heading-font;
+  position: fixed;
+  width: 86vw;
+  height: 50px;
+  border-radius: 30px;
+  bottom: 20px;
+  border: none;
+  background-color: $navy;
+  color: white;
+  font-size: 16px;
+  left: 7vw;
+}
+
+.desc {
+  margin: 20px 24px 20px 24px;
+
+  .desc__heading {
+    @include heading-font;
+  }
+
+  .desc__text {
+    @include body-font;
+    font-size: 16px;
+  }
+
+  .desc__subheading {
+    @include heading-font;
+    font-size: 14px;
+  }
+
+  .desc__subcontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desc__subtext {
+    @include body-font;
+    font-size: 14px;
+  }
+
+  .desc__text {
+    margin-bottom: 30px;
+  }
+}
+
+.pagepusher {
+  height: 300px;
+}
