@@ -1,0 +1,32 @@
+{
+    "houses": [{
+            "id": "1",
+            "price": "4900000 kr",
+            "street": "Vestergade",
+            "city": "Aarhus",
+            "size": "90m2",
+            "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
+            "saved": "false"
+        },
+
+        {
+            "id": "2",
+            "price": "4900000 kr",
+            "street": "Kildeagervej",
+            "city": "Hasselager",
+            "size": "90m2",
+            "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
+            "saved": "false"
+        },
+
+        {
+            "id": "3",
+            "price": "4900000 kr",
+            "street": "Borresovej",
+            "city": "Risskov",
+            "size": "90m2",
+            "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
+            "saved": "false"
+        }
+    ]
+}
