@@ -1,32 +1,41 @@
 {
     "houses": [{
-            "id": "1",
+            "id": 0,
             "price": "4900000 kr",
             "street": "Vestergade",
             "city": "Aarhus",
-            "size": "90m2",
+            "size": "40m2",
             "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
-            "saved": "false"
+            "saved": false,
+            "desc": "This is a nice-ass house, u should buy it, like 4Real. It has everything ya need. It got that bathroom with the consistent waterflow, it got the attic with build in wooden floor. What more ya need?",
+            "type": "House",
+            "rooms": "5"
         },
 
         {
-            "id": "2",
-            "price": "4900000 kr",
+            "id": 1,
+            "price": "3800000 kr",
             "street": "Kildeagervej",
             "city": "Hasselager",
             "size": "90m2",
             "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
-            "saved": "false"
+            "saved": false,
+            "desc": "This is a apartment, pls buy it now",
+            "type": "Apartment",
+            "rooms": "3"
         },
 
         {
-            "id": "3",
-            "price": "4900000 kr",
+            "id": 2,
+            "price": "5100000 kr",
             "street": "Borresovej",
             "city": "Risskov",
-            "size": "90m2",
+            "size": "180m2",
             "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
-            "saved": "false"
+            "saved": false,
+            "desc": "Whatever you do, do it fast, cuz this one is selling like hot bread on the first snowday of the year, if it also was a freaking Friday, could u believe it?",
+            "type": "House",
+            "rooms": "9"
         }
     ]
 }

@@ -7,15 +7,22 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(data);
       data.houses.forEach(house => {
         const cardList = document.querySelector(".posts__list");
-        const cardContainer = document.createElement("div");
+        const cardContainer = document.createElement("a");
         const cardIMG = document.createElement("div");
         const cardText = document.createElement("div");
         const price = document.createElement("div");
         const street = document.createElement("p");
         const city = document.createElement("p");
         const size = document.createElement("p");
+        const id = house.id;
         cardList.appendChild(cardContainer);
         cardContainer.setAttribute("class", "post");
+        cardContainer.setAttribute("data-id", id);
+        cardContainer.setAttribute("href", "housepage.html");
+        cardContainer.setAttribute(
+          "onclick",
+          "getID(this.getAttribute('data-id'))"
+        );
         cardContainer.append(cardIMG);
         cardIMG.setAttribute("class", "post__imgbox");
         cardIMG.append(cardText);
