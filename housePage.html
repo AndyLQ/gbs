@@ -9,28 +9,29 @@
       src="https://kit.fontawesome.com/14e99b7b1b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/housepage.js"></script>
   </head>
 
   <body>
     <div class="pageheader">
       <div class="pageheader__top">
-        <i class="fas fa-chevron-left"></i>
-        <div class="pageheader__top__pricetag">
-          2.400.000 kr
-        </div>
+        <a href="/">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <div class="pageheader__top__pricetag" id="topPrice"></div>
       </div>
 
       <div class="pageheader__bot">
         <div class="pageheader__bot__1">
-          <p>Vestergade</p>
+          <p id="street"></p>
           <i class="far fa-heart"></i>
         </div>
 
         <div class="pageheader__bot__2">
           <i class="fas fa-map-marker-alt"></i>
-          <p>Aarhus C</p>
+          <p id="city"></p>
           <i class="fas fa-ruler-combined"></i>
-          <p>90m2</p>
+          <p id="topSize"></p>
         </div>
       </div>
     </div>
@@ -39,35 +40,32 @@
 
     <div class="desc">
       <p class="desc__heading">Description</p>
-      <p class="desc__text">
-        This a description of this house thingy. Its a pretty cool home and if
-        you have the money, you should do it
-      </p>
+      <p class="desc__text" id="desc"></p>
 
       <p class="desc__subheading">Details</p>
       <hr />
 
       <div class="desc__subcontainer">
         <p class="desc__subheading">Type</p>
-        <p class="desc__type desc__subtext">Apartment</p>
+        <p class="desc__type desc__subtext" id="type"></p>
       </div>
       <hr />
 
       <div class="desc__subcontainer">
         <p class="desc__subheading">Size</p>
-        <p class="desc__size desc__subtext">90m2</p>
+        <p class="desc__size desc__subtext" id="size"></p>
       </div>
       <hr />
 
       <div class="desc__subcontainer">
         <p class="desc__subheading">Rooms</p>
-        <p class="desc__rooms desc__subtext">3</p>
+        <p class="desc__rooms desc__subtext" id="rooms"></p>
       </div>
       <hr />
 
       <div class="desc__subcontainer">
         <p class="desc__subheading">Price</p>
-        <p class="desc__price desc__subtext">2.400.000</p>
+        <p class="desc__price desc__subtext" id="price"></p>
       </div>
       <hr />
 
