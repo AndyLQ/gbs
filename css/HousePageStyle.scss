@@ -75,6 +75,7 @@ body {
       p {
         font-size: 30px;
         margin: 0;
+        @include heading-font;
       }
 
       //Heart icon
@@ -152,5 +153,5 @@ body {
 }
 
 .pagepusher {
-  height: 300px;
+  height: 90px;
 }

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return response.json();
     })
     .then(data => {
-      console.log(data);
+      console.log(data.houses);
       data.houses.forEach(house => {
         const cardList = document.querySelector(".posts__list");
         const cardContainer = document.createElement("a");
@@ -42,3 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 });
+
+function getID(data_id) {
+  localStorage.setItem("currenthouse", data_id);
+}
