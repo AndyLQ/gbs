@@ -47,14 +47,6 @@ header {
   margin: $base-spacing auto;
   max-width: 1000px;
 
-  .offline__heading {
-    display: block;
-    background-color: orangered;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-  }
-
   .logo {
     margin: 0 $base-spacing * 2;
     display: grid;
@@ -189,6 +181,29 @@ nav {
     align-content: center;
     padding-top: 18px;
     font-size: 20px;
+  }
+}
+
+.offline__snackbar {
+  display: flex;
+  background-color: #393d40;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  bottom: 8px;
+  height: auto;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  p {
+    padding: 16px;
+    margin: 0;
+  }
+  &--button {
+    padding: 0 16px;
+    color: $gold;
+    font-weight: bold;
   }
 }
 

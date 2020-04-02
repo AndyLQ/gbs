@@ -20,13 +20,28 @@
   </head>
 
   <header>
-    <span class="offline__heading"
-      >You are now previewing our offline version, some features have been
-      disabled</span
-    >
     <div class="logo">
       <img src="assets/icon.png" />
       <h1>GRATIS<em>BOLIGSALG.DK</em></h1>
     </div>
   </header>
+  <main class="wrapper">
+    <div class="posts__list"></div>
+
+    <nav>
+      <div><i class="fas fa-search fa-active"></i></div>
+      <div>
+        <a href="liked.html"><i class="far fa-heart"></i></a>
+      </div>
+      <div><i class="far fa-user"></i></div>
+    </nav>
+  </main>
+
+  <div class="offline__snackbar">
+    <p>
+      You are currently offline and can only see the list of the properties you
+      liked.
+    </p>
+    <button class="offline__snackbar--button">OK</button>
+  </div>
 </html>

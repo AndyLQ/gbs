@@ -22,14 +22,6 @@ header {
   max-width: 1000px;
 }
 
-header .offline__heading {
-  display: block;
-  background-color: orangered;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-}
-
 header .logo {
   margin: 0 24px;
   display: grid;
@@ -174,6 +166,31 @@ nav div {
   align-content: center;
   padding-top: 18px;
   font-size: 20px;
+}
+
+.offline__snackbar {
+  display: flex;
+  background-color: #393d40;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  bottom: 8px;
+  height: auto;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+
+.offline__snackbar p {
+  padding: 16px;
+  margin: 0;
+}
+
+.offline__snackbar--button {
+  padding: 0 16px;
+  color: #aa9853;
+  font-weight: bold;
 }
 
 @media screen and (max-height: 450px) {
