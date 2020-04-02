@@ -31,6 +31,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .post {
   height: 200px;
   width: 85vw;
@@ -107,6 +111,9 @@ header {
   }
   &__textbox {
     padding: 10px;
+    i {
+      color: white;
+    }
     &__price {
       background-color: $gold;
       display: inline-block;
@@ -128,14 +135,13 @@ header {
       color: white;
       font-size: 14px;
       display: inline-block;
-      margin-top: 5px;
+      margin: 6px 16px 6px 8px;
     }
     &__size {
       color: white;
       font-size: 14px;
       display: inline-block;
-      margin-top: 5px;
-      margin-left: 10px;
+      margin: 6px 8px;
     }
     img {
       margin-bottom: -3px;

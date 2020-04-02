@@ -15,6 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const city = document.createElement("p");
         const size = document.createElement("p");
         const id = house.id;
+        const locationIcon = document.createElement("i");
+        const sizeIcon = document.createElement("i");
+
+        locationIcon.setAttribute("class", "fas fa-map-marker-alt");
+        sizeIcon.setAttribute("class", "fas fa-ruler-combined");
+
         cardList.appendChild(cardContainer);
         cardContainer.setAttribute("class", "post");
         cardContainer.setAttribute("data-id", id);
@@ -29,8 +35,11 @@ document.addEventListener("DOMContentLoaded", () => {
         cardText.setAttribute("class", "post__textbox");
         cardText.append(price);
         cardText.append(street);
+        cardText.append(locationIcon);
         cardText.append(city);
+        cardText.append(sizeIcon);
         cardText.append(size);
+
         price.innerHTML = house.price;
         price.setAttribute("class", "post__textbox__price");
         street.innerHTML = house.street;
