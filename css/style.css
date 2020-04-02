@@ -57,7 +57,8 @@ header .logo h1 em {
   max-width: 1000px;
 }
 
-.wrapper .posts__list {
+.posts__list,
+.offline__houses {
   margin: 0 24px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -131,11 +132,13 @@ header .logo h1 em {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
-  margin: 24px; }
+  margin: 24px;
+}
 
 #search div:first-of-type i {
   font-size: 16px;
-  color: #0f1236; }
+  color: #0f1236;
+}
 
 #search div:first-of-type #search__input {
   border: none;
@@ -144,12 +147,12 @@ header .logo h1 em {
   font-size: 12px;
   font-family: quicksand;
   padding: 6px 0;
-  color: #0f1236; }
+  color: #0f1236;
+}
 
 #search #search__query {
-  margin: 24px; }
-
-
+  margin: 24px;
+}
 
 nav {
   display: flex;

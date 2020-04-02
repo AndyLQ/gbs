@@ -77,13 +77,15 @@ header {
 .wrapper {
   margin: 0 auto;
   max-width: 1000px;
-  .posts__list {
-    margin: 0 $base-spacing * 2;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-column-gap: $base-spacing * 2.5;
-    grid-row-gap: $base-spacing * 2;
-  }
+}
+
+.posts__list,
+.offline__houses {
+  margin: 0 $base-spacing * 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: $base-spacing * 2.5;
+  grid-row-gap: $base-spacing * 2;
 }
 
 .post {
