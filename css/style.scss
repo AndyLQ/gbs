@@ -145,23 +145,26 @@ header {
 
 #search {
   div:first-of-type {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    margin: 1rem 0;
-
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 24px;
+    i {
+      font-size: 16px;
+      color: $black;
+    }
     #search__input {
       border: none;
-      border-bottom: 1px solid black;
-
-      &::before {
-        width: 100px;
-        display: block;
-        height: 100px;
-        color: red;
-        content: "sexy";
-      }
+      border-bottom: 1px solid $black;
+      min-width: 285px;
+      font-size: 12px;
+      font-family: quicksand;
+      padding: 6px 0;
+      color: $black;
     }
+  }
+  #search__query {
+    margin: 24px;
   }
 }
 

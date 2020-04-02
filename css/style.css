@@ -104,21 +104,26 @@ header .logo h1 em {
   margin-bottom: -3px; }
 
 #search div:first-of-type {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin: 1rem 0; }
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  margin: 24px; }
+
+#search div:first-of-type i {
+  font-size: 16px;
+  color: #0f1236; }
 
 #search div:first-of-type #search__input {
   border: none;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid #0f1236;
+  min-width: 285px;
+  font-size: 12px;
+  font-family: quicksand;
+  padding: 6px 0;
+  color: #0f1236; }
 
-#search div:first-of-type #search__input::before {
-  width: 100px;
-  display: block;
-  height: 100px;
-  color: red;
-  content: "sexy"; }
+#search #search__query {
+  margin: 24px; }
 
 nav {
   display: flex;
