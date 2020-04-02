@@ -33,7 +33,3 @@ document.addEventListener("DOMContentLoaded", () => {
       price.innerHTML = data.houses[showPost].price;
     });
 });
-
-function getID(data_id) {
-  localStorage.setItem("currenthouse", data_id);
-}

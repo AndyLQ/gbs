@@ -5,7 +5,7 @@ self.addEventListener("install", event => {
   console.log("Installed");
   const setCache = async () => {
     let cacheContainer = await caches.open(expectedCacheName);
-    await cacheContainer.add("/xedni.html");
+    await cacheContainer.addAll(["/xedni.html", "/js/xedni.js"]);
   };
   event.waitUntil(setCache());
 });
