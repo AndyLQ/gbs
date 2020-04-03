@@ -4,8 +4,8 @@
             "price": "4.900.000 kr",
             "street": "Vestergade",
             "city": "Aarhus",
-            "size": "40m2",
-            "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
+            "size": "60m2",
+            "imgURL": "https://images-cdn.boligportal.dk/prod/public/e65d6093-48c4-4fdc-8ab1-5e8a20b726d4/w1024.jpg",
             "saved": false,
             "desc": "A nice family house on Vestergade in Aarhus. The noise in the area is at a minimum and there a park for the kids nearby. Nearest grocerystore is 10 min walk or 2 min. drive",
             "type": "House",
@@ -18,7 +18,7 @@
             "street": "Kildeagervej",
             "city": "Hasselager",
             "size": "90m2",
-            "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
+            "imgURL": "https://images-cdn.boligportal.dk/prod/public/588daf58-28ea-45ee-9c34-d874758678bb/w1024.jpg",
             "saved": false,
             "desc": "2 bedrooms and a livingroom / Kitchen. perfect for 2 good friends to movie into. It got a dishwasher but washing facilities are in the basement and they are shared. ",
             "type": "Apartment",
@@ -31,11 +31,24 @@
             "street": "Borresovej",
             "city": "Risskov",
             "size": "180m2",
-            "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
+            "imgURL": "https://images-cdn.boligportal.dk/prod/public/5819a7de-e0c3-4a97-80e2-8a5d48890ded/w1024.jpg",
             "saved": false,
-            "desc": "big house enough for 2 families, it has 3 bathrooms and 2 livingrooms. It got a wineceller and a big garden in the back with a small lake. Right now theres koi fish in it.",
+            "desc": "A big house enough for 2 families, it has 3 bathrooms and 2 livingrooms. It got a wineceller and a big garden in the back with a small lake. Right now theres koi fish in it.",
             "type": "House",
             "rooms": "9"
+        },
+        {
+
+            "id": 3,
+            "price": "1.900.000 kr",
+            "street": "Rosenhoj",
+            "city": "Viby J",
+            "size": "90m2",
+            "imgURL": "https://images-cdn.boligportal.dk/prod/public/05b525e6-4f5d-4307-be8f-45bd52d69fdc/w1024.jpg",
+            "saved": false,
+            "desc": "A nice apartment with a huge balcony, 4 rooms and 2 bathrooms. Spacious living rooms, perfect for students who want to share a flat or a family.",
+            "type": "Apartment",
+            "rooms": "4"
         }
     ]
 }

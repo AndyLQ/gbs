@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
         );
         cardContainer.append(cardIMG);
         cardIMG.setAttribute("class", "post__imgbox");
+        cardIMG.style.backgroundImage = "url('" + house.imgURL + "')";
+
         cardIMG.append(cardText);
         cardText.setAttribute("class", "post__textbox");
         cardText.append(price);
