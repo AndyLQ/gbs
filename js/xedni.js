@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cardContainer.append(cardIMG);
         cardIMG.setAttribute("class", "post__imgbox");
         cardIMG.append(cardText);
+        cardIMG.style.backgroundImage = "url('" + savedHouse.imgURL + "')";
         cardText.setAttribute("class", "post__textbox");
         cardText.append(price);
         cardText.append(street);
